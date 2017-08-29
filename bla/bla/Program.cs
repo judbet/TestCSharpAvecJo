@@ -11,6 +11,7 @@ namespace bla
         static void Main(string[] args)
         {
             Console.WriteLine("Bonjour tout le monde!");
+            Console.ReadLine();
         }
     }
 }
