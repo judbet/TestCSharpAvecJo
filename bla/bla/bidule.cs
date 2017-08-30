@@ -17,13 +17,14 @@
         private int m_iKekChose;
 
         /// <summary>
-        /// Constructeur servant à initialiser l'attribut lors de la création
-        /// d'un objet de la classe. L'attribut est initialisé arbitrairement
-        /// à la valeur 25.
+        /// Constructeur permettant d'initialiser l'attribut.
         /// </summary>
-        public Bidule ()
+        /// <param name="iKekChose">
+        /// Valeur passée pour initialiser l'attribut (25 par défaut).
+        /// </param>
+        public Bidule (int iKekChose = 25)
         {
-            m_iKekChose = 25;
+            m_iKekChose = iKekChose;
         }
     }
 }
